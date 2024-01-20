@@ -183,5 +183,5 @@
   {
     "key": "ctrl+shift+alt+f5",
     "command": "background.reload"
-  }
+  },
 ]

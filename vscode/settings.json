@@ -1,10 +1,17 @@
 {
     // backgrounds
     "background.backgroundAlignment": [ "Top Center", "Center Center", "Center Center", "Center Center" ],
-    "background.backgroundOpacity": [ 0.9, 0.9, 0.9, 0.9 ],
+    "background.backgroundOpacity": [
+        0.88,
+        0.9,
+        0.9,
+        0.9
+    ],
     "background.windowBackgrounds": [
-        "https://r4.wallpaperflare.com/wallpaper/742/153/83/video-games-ori-and-the-will-of-the-wisps-wallpaper-7bc68c7de311ef0965443bc95d3c9c20.jpg",
+        "https://images.hdqwalls.com/wallpapers/graveyard-ori-and-the-will-of-the-wisps-xk.jpg",
+        "https://images.hdqwalls.com/download/ori-and-the-blind-forest-hd-fm-2560x1440.jpg",
         "https://r4.wallpaperflare.com/wallpaper/1006/598/501/ori-and-the-blind-forest-4k-wallpaper-2505dcab361070aa4fe7c50820347b19.jpg",
+        "https://images.hdqwalls.com/download/ori-and-the-blind-forest-hd-fm-2560x1440.jpg",
         "https://r4.wallpaperflare.com/wallpaper/272/545/116/pokemon-go-pokemon-backgrounds-raichu-download-3840x2400-pokemon-go-wallpaper-f0d08559af163ec3989fd7a64b767438.jpg",
         "https://r4.wallpaperflare.com/wallpaper/636/55/768/pokemon-capsule-glass-pokemon-ball-wallpaper-0fdc527f1d8925c8f74dd26464736000.jpg",
         "https://r4.wallpaperflare.com/wallpaper/862/351/682/spongebob-squarepants-spongebob-squarepants-patrick-hd-wallpaper-c8567dc800207cf8e08ca1fe4842747a.jpg",
@@ -36,12 +43,8 @@
         "https://r4.wallpaperflare.com/wallpaper/396/923/611/video-game-cyberpunk-2077-cyberpunk-futuristic-warrior-hd-wallpaper-205118dab9b80ac693c48ad64f8baa68.jpg",
         "https://images7.alphacoders.com/134/1345263.jpeg",
         "https://images4.alphacoders.com/976/976013.jpg",
-        "https://r4.wallpaperflare.com/wallpaper/384/350/430/digital-art-artwork-cyber-cyberpunk-neon-hd-wallpaper-68f69d284060cc4840ecc13ef892e45a.jpg",
-        "https://images.hdqwalls.com/download/valorant-viper-4k-04-3840x2160.jpg",
         "https://images.hdqwalls.com/download/judy-alvarez-in-cyberpunk-2077-4k-6j-3840x2160.jpg",
-        "https://images.hdqwalls.com/download/lara-croft-tomb-raider-3840x2160.jpg",
         "https://images.hdqwalls.com/download/judy-alvarez-from-cyberpunk-2077-4k-3n-3840x2160.jpg",
-        "https://images.hdqwalls.com/download/ciri-witcher-cosplay-4k-yn-3840x2160.jpg",
         "https://images.hdqwalls.com/download/geralt-of-rivia-10k-4a-3840x2160.jpg",
         "https://images.hdqwalls.com/download/lara-croft-gz-3840x2160.jpg",
         "https://images.hdqwalls.com/download/assassins-creed-origins-6l-3840x2160.jpg",
@@ -50,7 +53,6 @@
         "https://images.hdqwalls.com/download/master-chief-halo-4-helmet-o3-3840x2160.jpg",
         "https://images.hdqwalls.com/wallpapers/goku-anime-dark-black-4k-ri.jpg",
         "https://images.hdqwalls.com/wallpapers/akudama-drive-y2.jpg",
-        "https://images.hdqwalls.com/wallpapers/supersonic-the-jett-valorant-fan-art-4k-g9.jpg",
         "https://images.hdqwalls.com/wallpapers/movie-wall-e-ad.jpg",
         "https://images.hdqwalls.com/wallpapers/super-saiyajin-blue-5k-pt.jpg",
         "https://images.hdqwalls.com/wallpapers/pokemon.jpg",
@@ -62,8 +64,21 @@
         "https://images.hdqwalls.com/wallpapers/cute-cats-listening-music-2b.jpg",
         "https://images.hdqwalls.com/wallpapers/apex-legends-2020-4k-gd.jpg",
         "https://images.hdqwalls.com/wallpapers/minecraft-creeper.jpg",
-        "https://images.hdqwalls.com/wallpapers/detective-pikachu-12k-bg.jpg",
-        ""
+        "https://r4.wallpaperflare.com/wallpaper/712/876/41/portal-2-portal-game-wallpaper-08e65c5a8f2c07190ef029922239cb50.jpg",
+        "https://r4.wallpaperflare.com/wallpaper/931/117/186/titanfall-2-ultra-hd-4k-wallpaper-fdc5fd561d5b9866d40c5549a0e38d58.jpg",
+        "https://images.hdqwalls.com/download/imaginary-movie-2024-poster-y5-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/gwen-stacy-among-the-skyscrapers-hi-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/gta-vi-8k-tt-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/the-girl-who-stopped-time-qj-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/lara-croft-in-tomb-raider-5k-az-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/minions-4-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/minions-5-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/keanu-reeves-cyberpunk-2077-5k-3q-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/2023-the-finals-kj-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/jill-valentine-resident-evil-the-disaster-i3-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/doctor-strange-in-the-multiverse-of-madness-poster-artwork-92-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/black-widow-fierce-whispers-rd-2560x1440.jpg",
+        "https://images.hdqwalls.com/download/harley-quinn-a-symphony-of-bang-fa-2560x1440.jpg",
     ],
     // other settings
     "editor.autoClosingBrackets": "beforeWhitespace",
@@ -104,10 +119,8 @@
     "python.testing.unittestEnabled": true,
     "update.showReleaseNotes": false,
     "workbench.activityBar.location": "hidden",
-    "workbench.colorCustomizations": {
-        "editorWhitespace.foreground": "#ffffff17"
-    },
     "workbench.iconTheme": "material-icon-theme",
+    "workbench.tips.enabled": false,
     "workbench.tree.indent": 12,
     "workbench.statusBar.visible": true,
     "workbench.layoutControl.enabled": false,
@@ -157,5 +170,12 @@
     "workbench.colorTheme": "Tokyo Night",
     "git.suggestSmartCommit": false,
     "zenMode.hideActivityBar": false,
-    "zenMode.centerLayout": false
+    "zenMode.centerLayout": false,
+    "workbench.colorCustomizations": {
+        "[Tokyo Night]": {
+            "editor.background": "#101017",
+            "editorWhitespace.foreground": "#262d4845",
+        },
+    },
+    "window.zoomLevel": 1,
 }
