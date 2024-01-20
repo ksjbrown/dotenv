@@ -4,6 +4,11 @@ My personal development environment configuration.
 
 ## Windows
 
+### Fonts
+
+    # Fira Code
+    https://github.com/ryanoasis/nerd-fonts/releases/download/v3.1.1/FiraCode.zip
+
 ### Powershell
 
     # Windows Terminal settings
