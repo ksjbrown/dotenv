@@ -1,93 +1,13 @@
 {
-    "editor.autoClosingBrackets": "beforeWhitespace",
-    "editor.formatOnSave": false,
-    "editor.fontFamily": "'MesloLGS NF'",
-    "editor.fontSize": 14,
-    "editor.linkedEditing": true,
-    "editor.minimap.enabled": false,
-    "editor.renderWhitespace": "boundary",
-    "editor.rulers": [
-        {
-            "column": 80,
-            "color": "#ffffff08"
-        },
-        {
-            "column": 120,
-            "color": "#ffffff0f"
-        }
-    ],
-    "editor.suggest.insertMode": "replace",
-    "explorer.confirmDragAndDrop": false,
-    "extensions.experimental.affinity": {
-        "vscodevim.vim": 1
-    },
-    "files.autoSave": "afterDelay",
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "go.showWelcome": false,
-    "go.survey.prompt": false,
-    "go.inlayHints.assignVariableTypes": true,
-    "go.inlayHints.rangeVariableTypes": true,
-    "python.analysis.diagnosticMode": "workspace",
-    "python.analysis.typeCheckingMode": "basic",
-    "python.testing.unittestArgs": [
-        "-v",
-        "-s",
-        "./tests",
-        "-p"
-    ],
-    "python.testing.unittestEnabled": true,
-    "update.showReleaseNotes": false,
-    "vim.leader": "<Space>",
-    "vim.hlsearch": true,
-    "vim.normalModeKeyBindingsNonRecursive": [
-        { "before": [ "<S-h>" ], "commands": [":bprevious"] },
-        { "before": [ "<S-l>" ], "commands": [":bnext" ] },
-        { "before": [ "leader", "v" ], "commands": [ ":vsplit" ] },
-        { "before": [ "leader", "f", "n" ], "commands": [ ":e" ] },
-        { "before": [ "leader", "b", "d" ], "commands": [ ":bd" ] },
-        { "before": [ "leader", "b", "<S-d>" ], "commands": [ ":bd!" ] },
-        { "before": [ "leader", "s" ], "commands": [ ":split" ] },
-        { "before": [ "leader", "h" ], "commands": [ "workbench.action.focusLeftGroup" ] },
-        { "before": [ "leader", "j" ], "commands": [ "workbench.action.focusBelowGroup" ] },
-        { "before": [ "leader", "k" ], "commands": [ "workbench.action.focusAboveGroup" ] },
-        { "before": [ "leader", "l" ], "commands": [ "workbench.action.focusRightGroup" ] },
-        { "before": [ "leader", "w" ], "commands": [ ":w!" ] },
-        { "before": [ "leader", "q" ], "commands": [ ":q!" ] },
-        { "before": [ "leader", "x" ], "commands": [ ":x!" ] },
-        { "before": [ "[", "d" ], "commands": [ "editor.action.marker.prev" ] },
-        { "before": [ " ]", "d"], "commands": [ "editor.action.marker.next" ] },
-        { "before": [ "leader", "c", "a" ], "commands": [ "editor.action.quickFix" ] },
-        { "before": [ "leader", "f", "f" ], "commands": [ "workbench.action.quickOpen" ] },
-        { "before": [ "leader", "p" ], "commands": [ "editor.action.formatDocument" ] },
-        { "before": [ "C-u" ], "after": [ "C-u", "z", "z" ] },
-        { "before": [ "C-d" ], "after": [ "C-d", "z", "z" ] },
-        { "before": [ "leader", "g", "g" ], "commands": [ "git-graph.view" ] }
-    ],
-    "vim.visualModeKeyBindings": [
-        { "before": [ "<" ], "commands": [ "editor.action.outdentLines" ] },
-        { "before": [ ">" ], "commands": [ "editor.action.indentLines" ] },
-        { "before": [ "J" ], "commands": [ "editor.action.moveLinesDownAction" ] },
-        { "before": [ "K" ], "commands": [ "editor.action.moveLinesUpAction" ] },
-        { "before": [ "leader", "c" ], "commands": [ "editor.action.commentLine" ] }
-    ],
-    "workbench.activityBar.location": "hidden",
-    "workbench.colorCustomizations": {
-        "editorWhitespace.foreground": "#ffffff0f"
-    },
-    "workbench.colorTheme": "Tokyo Night",
-    "workbench.iconTheme": "vscode-icons",
-    "workbench.tree.indent": 12,
-    "workbench.statusBar.visible": true,
-    "workbench.layoutControl.enabled": false,
+    // backgrounds
     "background.backgroundAlignment": [ "Top Center", "Center Center", "Center Center", "Center Center" ],
     "background.backgroundOpacity": [ 0.9, 0.9, 0.9, 0.9 ],
     "background.windowBackgrounds": [
         "https://wallpapercave.com/download/4k-cyberpunk-girl-wallpapers-wp8002395",
         "https://wallpapercave.com/download/aesthetic-cyberpunk-4k-wallpapers-wp12104135",
-        "https://wallpapercave.com/download/cyberpunk-4k-hd-wallpapers-wp12732939",                     // good
+        "https://wallpapercave.com/download/cyberpunk-4k-hd-wallpapers-wp12732939",
         "https://wallpapercave.com/download/cyberpunk-2077-anime-pc-wallpapers-wp13372875",
-        "https://wallpapercave.com/download/hd-witcher-wallpapers-wp12296205",                          // good
+        "https://wallpapercave.com/download/hd-witcher-wallpapers-wp12296205",
         "https://wallpapercave.com/download/avatar-the-last-airbender-landscape-wallpapers-wp12135134",
         "https://wallpapercave.com/download/sekiro-wallpapers-wp5446549",
         "https://wallpapercave.com/download/little-nightmares-2-wallpapers-wp8476650",
@@ -155,5 +75,96 @@
         "https://r4.wallpaperflare.com/wallpaper/695/798/363/fortnite-pc-gaming-colorful-hd-wallpaper-98165d6840b00cd8d03c413ef80234fa.jpg",
         "https://r4.wallpaperflare.com/wallpaper/990/374/475/jinx-league-of-legends-arcane-hd-wallpaper-737b331d0d991b65ef46e227881ba8f8.jpg",
         "https://r4.wallpaperflare.com/wallpaper/961/834/349/jinx-league-of-legends-arcane-vi-league-of-legends-caitlyn-league-of-legends-hd-wallpaper-bcd121422bc940209fad5daee8641a2d.jpg"
-    ]
+    ],
+    // other settings
+    "editor.autoClosingBrackets": "beforeWhitespace",
+    "editor.cursorSurroundingLines": 8,
+    "editor.formatOnSave": false,
+    "editor.fontFamily": "'FiraCode Nerd Font Mono'",
+    "editor.fontSize": 14,
+    "editor.lineNumbers": "relative",
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.renderWhitespace": "boundary",
+    "explorer.compactFolders": false,
+    "editor.rulers": [
+        { "column": 80, "color": "#ffffff0f" },
+        { "column": 120, "color": "#ffffff1f" }
+    ],
+    "editor.suggest.insertMode": "replace",
+    "editor.quickSuggestions": {
+        "other": "inline"
+    },
+    "explorer.confirmDragAndDrop": false,
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "files.autoSave": "afterDelay",
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "go.showWelcome": false,
+    "go.survey.prompt": false,
+    "python.analysis.diagnosticMode": "workspace",
+    "python.analysis.typeCheckingMode": "basic",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./tests",
+        "-p"
+    ],
+    "python.testing.unittestEnabled": true,
+    "update.showReleaseNotes": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorCustomizations": {
+        "editorWhitespace.foreground": "#ffffff17"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.tree.indent": 12,
+    "workbench.statusBar.visible": true,
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "vim.leader": "<Space>",
+    "vim.highlightedyank.enable": true,
+    "vim.normalModeKeyBindingsNonRecursive": [
+        // NAVIGATION
+        // switch b/w buffers
+        { "before": ["<S-h>"], "commands": [":bprevious"] },
+        { "before": ["<S-l>"], "commands": [":bnext"] },
+        // splits
+        { "before": ["leader", "v"], "commands": [":vsplit"] },
+        { "before": ["leader", "s"], "commands": [":split"] },
+        // panes
+        { "before": ["leader", "h"], "commands": ["workbench.action.focusLeftGroup"] },
+        { "before": ["leader", "j"], "commands": ["workbench.action.focusBelowGroup"] },
+        { "before": ["leader", "k"], "commands": ["workbench.action.focusAboveGroup"] },
+        { "before": ["leader", "l"], "commands": ["workbench.action.focusRightGroup"] },
+        // move panes
+        { "before": ["leader", "H"], "commands": ["workbench.action.moveEditorToLeftGroup"] },
+        { "before": ["leader", "J"], "commands": ["workbench.action.moveEditorToBelowGroup"] },
+        { "before": ["leader", "K"], "commands": ["workbench.action.moveEditorToAboveGroup"] },
+        { "before": ["leader", "L"], "commands": ["workbench.action.moveEditorToRightGroup"] },
+        // NICE TO HAVE
+        { "before": ["leader", "w"], "commands": [":w!"] },
+        { "before": ["leader", "q"], "commands": [":q!"] },
+        { "before": ["leader", "x"], "commands": [":x!"] },
+        { "before": [ "[", "d" ], "commands": [ "editor.action.marker.prev" ] },
+        { "before": ["]", "d"], "commands": ["editor.action.marker.next"] },
+        { "before": ["<leader>", "c", "a"], "commands": ["editor.action.quickFix"] },
+        { "before": ["leader", "p"], "commands": ["editor.action.formatDocument"] }, 
+        { "before": ["g", "h"], "commands": ["editor.action.showDefinitionPreviewHover"] }
+    ],
+    "vim.visualModeKeyBindings": [
+        // Stay in visual mode while indenting
+        { "before": ["<"], "commands": ["editor.action.outdentLines"] },
+        { "before": [">"], "commands": ["editor.action.indentLines"] },
+        // Move selected lines while staying in visual mode
+        { "before": ["J"], "commands": ["editor.action.moveLinesDownAction"] },
+        { "before": ["K"], "commands": ["editor.action.moveLinesUpAction"] },
+        // toggle comment selection
+        { "before": ["leader", "c"], "commands": ["editor.action.commentLine"] }
+    ],
+    "zenMode.hideLineNumbers": false,
+    "vim.mouseSelectionGoesIntoVisualMode": false,
+    "window.zoomLevel": 1,
+    "workbench.colorTheme": "Tokyo Night",
 }

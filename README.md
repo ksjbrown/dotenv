@@ -2,40 +2,34 @@
 
 My personal development environment configuration.
 
-## Windows Terminal
+## Windows
 
-    cp wt\settings.json $Env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json
+### Powershell
 
-## Windows Powershell
+    # Windows Terminal settings
+    curl.exe -o $Env:LOCALAPPDATA\Packages\Microsoft.WindowsTerminal_8wekyb3d8bbwe\LocalState\settings.json https://raw.githubusercontent.com/ksjbrown/dotenv/main/wt/settings.json
 
-### Extensions
-
-#### posh-git 
-
-    PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
-
-#### oh-my-posh 
-
-    winget install JanDeDobbeleer.OhMyPosh -s winget
-
-#### lazygit 
-
-    winget install lazygit
-
-### Enable Profile Execution
-
+    # Windows Powershell allow script execution
     Set-ExecutionPolicy RemoteSigned
 
-### Profile
+    # Windows Powershell extensions
+    PowerShellGet\Install-Module posh-git -Scope CurrentUser -Force
+    winget install JanDeDobbeleer.OhMyPosh -s winget
 
-    cp pwsh\Microsoft.PowerShell_profile.ps1 $profile
-    . $profile
+    # Windows Powershell profile
+    curl.exe -o $profile https://raw.githubusercontent.com/ksjbrown/dotenv/main/pwsh/Microsoft.PowerShell_profile.ps1
 
-## Windows Subsystem for Linux
+    # Apply VS Code settings, keybinds and extensions
+    curl.exe -o $Env:APPDATA\Code\User\settings.json https://raw.githubusercontent.com/ksjbrown/dotenv/main/vscode/settings.json
+    curl.exe -o $Env:APPDATA\Code\User\keybindings.json https://raw.githubusercontent.com/ksjbrown/dotenv/main/vscode/keybindings.json
+    curl.exe https://raw.githubusercontent.com/ksjbrown/dotenv/main/vscode/extensions.txt |% { code --install-extension $_}
 
-### Extensions
 
-    # oh my posh
+## WSL
+
+### Bash
+
+    # Extensions
     curl -s https://ohmyposh.dev/install.sh | sudo bash -s
 
 ### Append to .bashrc
@@ -46,30 +40,4 @@ My personal development environment configuration.
 
     # enable oh-my-posh
     eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/ksjbrown/devenv/main/omp/themes/wopian_keegs.omp.json')"
-    
-
-## Neovim
-
-### Install
-
-#### Windows
-
-    winget install Neovim.Neovim
-    winget install lazygit
-
-#### WSL
-
-    curl -o ~/.local/bin/nvim.appimage -LO https://github.com/neovim/neovim/releases/latest/download/nvim.appimage
-    chmod u+x ~/.local/bin/nvim.appimage
-
-    # lazygit extension
-    LAZYGIT_VERSION=$(curl -s "https://api.github.com/repos/jesseduffield/lazygit/releases/latest" | grep -Po '"tag_name": "v\K[^"]*')
-    curl -Lo lazygit.tar.gz "https://github.com/jesseduffield/lazygit/releases/latest/download/lazygit_${LAZYGIT_VERSION}_Linux_x86_64.tar.gz"
-    tar xf lazygit.tar.gz lazygit
-    sudo install lazygit /usr/local/bin
-
-##### Append to .bashrc
-
-    # nvim alias
-    alias nvim='~/.local/bin/nvim.appimage'
 
