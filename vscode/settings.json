@@ -9,10 +9,6 @@
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "boundary",
     "explorer.compactFolders": false,
-    "editor.rulers": [
-        { "column": 80, "color": "#ffffff0f" },
-        { "column": 120, "color": "#ffffff13" }
-    ],
     "editor.suggest.insertMode": "replace",
     "editor.quickSuggestions": {
         "other": "inline"
