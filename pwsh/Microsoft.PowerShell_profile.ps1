@@ -2,6 +2,9 @@
 Set-PSReadlineKeyHandler -Key Tab -Function Complete
 Set-PSReadlineOption -BellStyle None
 
+# hide venv prompt, handled by ohmyposh
+$Env:VIRTUAL_ENV_DISABLE_PROMPT=1
+
 # load extensions
 Import-Module posh-git
-oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/ksjbrown/devenv/main/omp/themes/wopian_keegs.omp.json' | Invoke-Expression
+oh-my-posh init pwsh --config 'https://raw.githubusercontent.com/ksjbrown/dotenv/main/omp/themes/wopian_keegs.omp.json' | Invoke-Expression

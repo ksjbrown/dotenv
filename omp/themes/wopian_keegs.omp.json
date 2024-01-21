@@ -5,10 +5,10 @@
             "alignment": "left",
             "segments": [
                 {
-                    "foreground": "cyan",
+                    "type": "os",
                     "style": "powerline",
-                    "template": "{{ .Icon }}",
-                    "type": "os"
+                    "foreground": "cyan",
+                    "template": "{{ .Icon }}"
                 },
                 {
                     "foreground": "cyan",
@@ -16,63 +16,33 @@
                         "style": "full"
                     },
                     "style": "plain",
-                    "template": " {{ .Path }} ",
+                    "template": " {{ .Path }}",
                     "type": "path"
                 },
+                
                 {
+                    "type": "git",
+                    "style": "plain",
                     "foreground": "lightYellow",
-                    "style": "plain",
-                    "template": ":: <lightBlue>git(</>{{ .HEAD }}<lightBlue>)</>",
-                    "type": "git"
-                }
-            ],
-            "type": "prompt"
-        },
-        {
-            "alignment": "right",
-            "segments": [
-                {
-                    "foreground": "#68a063",
-                    "properties": {
-                        "display_mode": "files",
-                        "fetch_package_manager": true,
-                        "fetch_version": true,
-                        "npm_icon": "/npm",
-                        "yarn_icon": "/yarn"
-                    },
-                    "style": "plain",
-                    "template": " {{ if .PackageManagerIcon }}{{ .PackageManagerIcon }} {{ end }}{{ .Full }}",
-                    "type": "node"
+                    "template": " <lightBlue>git(</>{{ .HEAD }}<lightBlue>)</>"
                 },
                 {
-                    "foreground": "#4063D8",
-                    "properties": {
-                        "display_mode": "files",
-                        "fetch_version": true
-                    },
+                    "type": "python",
                     "style": "plain",
-                    "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
-                    "type": "crystal"
+                    "properties": {
+                        "display_mode": "context"
+                    },
+                    "foreground": "#100e23",
+                    "template": "{{ if .Error }}{{ .Error }}{{ else }} \ue73c{{ if .Venv }} {{ .Venv }}{{ end }} {{ .Full }}{{ end }}"
                 },
                 {
-                    "foreground": "#DE3F24",
-                    "properties": {
-                        "display_mode": "files",
-                        "fetch_version": true
-                    },
+                    "type": "go",
                     "style": "plain",
-                    "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
-                    "type": "ruby"
-                },
-                {
-                    "foreground": "#FED142",
                     "properties": {
-                        "display_mode": "context",
-                        "fetch_virtual_env": false
+                        "display_mode": "context"
                     },
-                    "style": "plain",
-                    "template": " {{ if .Error }}{{ .Error }}{{ else }}{{ .Full }}{{ end }}",
-                    "type": "python"
+                    "foreground": "#7FD5EA",
+                    "template": "{{ if .Error }}{{ .Error }}{{ else }} \ue627 {{ .Full }}{{ end }}"
                 }
             ],
             "type": "prompt"
