@@ -39,7 +39,7 @@
     "profiles": {
         "defaults": {
             "adjustIndistinguishableColors": "always",
-            "backgroundImage": "%LOCALAPPDATA%\\Packages\\Microsoft.WindowsTerminal_8wekyb3d8bbwe\\wallpaper.jpg",
+            "backgroundImage": "https://images.hdqwalls.com/wallpapers/movie-wall-e-ad.jpg",
             "backgroundImageAlignment": "top",
             "backgroundImageOpacity": 0.20,
             "colorScheme": "Tokyo Night",
