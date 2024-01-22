@@ -8,11 +8,14 @@
     "editor.linkedEditing": true,
     "editor.minimap.enabled": false,
     "editor.renderWhitespace": "boundary",
-    "explorer.compactFolders": false,
+    "editor.rulers": [
+        { "column": 80, "color": "#262d4845" },
+    ],
     "editor.suggest.insertMode": "replace",
     "editor.quickSuggestions": {
         "other": "inline"
     },
+    "explorer.compactFolders": false,
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "afterDelay",
     "git.autofetch": true,
@@ -20,13 +23,8 @@
     "git.suggestSmartCommit": false,
     "update.showReleaseNotes": false,
     "window.commandCenter": false,
+    "window.density.editorTabHeight": "compact",
     "window.menuBarVisibility": "compact",
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.tips.enabled": false,
-    "workbench.tree.indent": 12,
-    "workbench.statusBar.visible": true,
-    "workbench.layoutControl.enabled": false,
-    "workbench.colorTheme": "Tokyo Night",
     "workbench.activityBar.location": "hidden",
     "workbench.colorCustomizations": {
         "[Tokyo Night]": {
@@ -36,16 +34,24 @@
             "editorIndentGuide.activeBackground1": "#3b497e76",
         },
     },
+    "workbench.colorTheme": "Tokyo Night",
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.editor.wrapTabs": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    "workbench.statusBar.visible": true,
+    "workbench.tips.enabled": false,
+    "workbench.tree.indent": 12,
+    "zenMode.centerLayout": false,
     "zenMode.hideActivityBar": false,
     "zenMode.hideLineNumbers": false,
-    "zenMode.centerLayout": false,
+    "zenMode.hideStatusBar": false,
 
     // Extensions
 
     // Vim
     "vim.handleKeys": { 
         "<C-f>": false, 
-        "<C-h>": false,
         "<C-w>": false,
     },
     "vim.highlightedyank.enable": true,
@@ -53,8 +59,8 @@
     "vim.normalModeKeyBindingsNonRecursive": [
         // NAVIGATION
         // switch b/w buffers
-        { "before": ["<S-h>"], "commands": [":bprevious"] },
-        { "before": ["<S-l>"], "commands": [":bnext"] },
+        { "before": ["<C-h>"], "commands": ["workbench.action.previousEditorInGroup"] },
+        { "before": ["<C-l>"], "commands": ["workbench.action.nextEditorInGroup"] },
         // splits
         { "before": ["leader", "v"], "commands": [":vsplit"] },
         { "before": ["leader", "s"], "commands": [":split"] },
