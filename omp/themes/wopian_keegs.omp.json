@@ -24,7 +24,7 @@
                     "type": "git",
                     "style": "plain",
                     "foreground": "lightYellow",
-                    "template": " <lightBlue>git(</>{{ .HEAD }}<lightBlue>)</>"
+                    "template": " {{ .HEAD }}"
                 },
                 {
                     "type": "python",
