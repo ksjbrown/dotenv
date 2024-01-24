@@ -33,7 +33,7 @@
                         "display_mode": "context"
                     },
                     "foreground": "#100e23",
-                    "template": "{{ if .Error }}{{ .Error }}{{ else }} \ue73c{{ if .Venv }} {{ .Venv }}{{ end }} {{ .Full }}{{ end }}"
+                    "template": " \ue73c{{ if .Error }} ?{{ else }}{{ if .Venv }} {{ .Venv }}{{ end }} {{ .Full }}{{ end }}"
                 },
                 {
                     "type": "go",
@@ -42,7 +42,7 @@
                         "display_mode": "context"
                     },
                     "foreground": "#7FD5EA",
-                    "template": "{{ if .Error }}{{ .Error }}{{ else }} \ue627 {{ .Full }}{{ end }}"
+                    "template": " \ue627{{ if .Error }} ?{{ else }} {{ .Full }}{{ end }}"
                 }
             ],
             "type": "prompt"
