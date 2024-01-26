@@ -1,33 +1,39 @@
 [
-  // pane / tab navigation
+  // terminal navigation
   { "key": "ctrl+shift+h", "command": "-workbench.action.replaceInFiles" },
   { "key": "ctrl+shift+h", "command": "workbench.action.terminal.focusPreviousPane", "when": "terminalFocus" },
   { "key": "ctrl+shift+j", "command": "workbench.action.terminal.focusNext", "when": "terminalFocus" },
   { "key": "ctrl+shift+k", "command": "workbench.action.terminal.focusPrevious", "when": "terminalFocus" },
   { "key": "ctrl+shift+l", "command": "workbench.action.terminal.focusNextPane", "when": "terminalFocus" },
+  { "key": "ctrl+shift+v", "command": "workbench.action.terminal.splitActiveTab", "when": "terminalFocus" },
+  // terminal actions
   { "key": "ctrl+shift+n", "command": "workbench.action.terminal.new", "when": "terminalFocus" },
   { "key": "ctrl+shift+w", "command": "workbench.action.terminal.kill", "when": "terminalFocus" },
-  { "key": "ctrl+shift+alt+up", "command": "workbench.action.terminal.resizePaneUp", "when": "terminalFocus" },
-  { "key": "ctrl+shift+alt+down", "command": "workbench.action.terminal.resizePaneDown", "when": "terminalFocus" },
-  { "key": "ctrl+shift+alt+left", "command": "workbench.action.terminal.resizePaneLeft", "when": "terminalFocus" },
-  { "key": "ctrl+shift+alt+right", "command": "workbench.action.terminal.resizePaneRight", "when": "terminalFocus" },
-  { "key": "ctrl+shift+alt+v", "command": "workbench.action.terminal.splitActiveTab", "when": "terminalFocus" },
-  // file tree
-  { "key": "ctrl+e", "command": "workbench.files.action.focusFilesExplorer", "when": "terminalFocus && editorTextFocus"},
+  // terminal resizing
+  { "key": "ctrl+shift+up", "command": "workbench.action.terminal.resizePaneUp", "when": "terminalFocus" },
+  { "key": "ctrl+shift+down", "command": "workbench.action.terminal.resizePaneDown", "when": "terminalFocus" },
+  { "key": "ctrl+shift+left", "command": "workbench.action.terminal.resizePaneLeft", "when": "terminalFocus" },
+  { "key": "ctrl+shift+right", "command": "workbench.action.terminal.resizePaneRight", "when": "terminalFocus" },
+  // explorer
   { "key": "ctrl+e", "command": "workbench.action.toggleSidebarVisibility" },
   { "key": "n", "command": "explorer.newFile", "when": "filesExplorerFocus && !inputFocus" },
   { "key": "r", "command": "renameFile", "when": "filesExplorerFocus && !inputFocus" },
   { "key": "d", "command": "deleteFile", "when": "filesExplorerFocus && !inputFocus" },
   { "key": "alt+h", "command": "previousCompressedFolder", "when": "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedFirstFocus && !inputFocus" },
-  // resize
-  { "key": "ctrl+shift+alt+left", "command": "workbench.action.decreaseViewWidth", },
-  { "key": "ctrl+shift+alt+right", "command": "workbench.action.increaseViewWidth", },
-  { "key": "ctrl+shift+alt+up", "command": "workbench.action.increaseViewHeight", },
-  { "key": "ctrl+shift+alt+down", "command": "workbench.action.decreaseViewHeight", },
+  { "key": "ctrl+shift+alt+left", "command": "workbench.action.decreaseViewSize", "when": "explorerViewletFocus" },
+  { "key": "ctrl+shift+alt+right", "command": "workbench.action.increaseViewSize", "when": "explorerViewletFocus" },
+  // resize editors
+  { "key": "ctrl+shift+alt+left", "command": "workbench.action.decreaseViewWidth", "when": "!explorerViewletFocus" },
+  { "key": "ctrl+shift+alt+right", "command": "workbench.action.increaseViewWidth", "when": "!explorerViewletFocus" },
+  { "key": "ctrl+shift+alt+up", "command": "workbench.action.increaseViewHeight", "when": "!explorerViewletFocus" },
+  { "key": "ctrl+shift+alt+down", "command": "workbench.action.decreaseViewHeight", "when": "!explorerViewletFocus" },
+  // context help
+  { "key": "ctrl+alt+h", "command": "editor.action.showDefinitionPreviewHover" },
   // go to file
+  { "key": "ctrl+p", "command": "-workbench.action.quickOpen" },
   { "key": "ctrl+shift+p", "command": "-workbench.action.showCommands" },
   { "key": "ctrl+shift+p", "command": "workbench.action.quickOpen" },
-  { "key": "ctrl+p", "command": "-workbench.action.quickOpen" },
+  // new files
   { "key": "ctrl+shift+n", "command": "-workbench.action.newWindow" },
   { "key": "ctrl+shift+n", "command": "workbench.action.files.newUntitledFile", "when": "!terminalFocus" },
   { "key": "ctrl+n", "command": "-workbench.action.files.newUntitledFile" },
@@ -38,6 +44,6 @@
   { "key": "ctrl+shift+alt+g", "command": "git-graph.view" },
   // markdown
   { "key": "ctrl+shift+v", "command": "-markdown.showPreview", "when": "!notebookEditorFocused && editorLangId == 'markdown'" },
-  { "key": "ctrl+shift+v", "command": "markdown.showPreviewToSide", "when": "!notebookEditorFocused && editorLangId == 'markdown'" },
   { "key": "ctrl+k v", "command": "-markdown.showPreviewToSide", "when": "!notebookEditorFocused && editorLangId == 'markdown'" },
+  { "key": "ctrl+shift+v", "command": "markdown.showPreviewToSide", "when": "!notebookEditorFocused && editorLangId == 'markdown'" },
 ]

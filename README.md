@@ -29,13 +29,12 @@ My personal development environment configuration.
     curl.exe -o $Env:APPDATA\Code\User\keybindings.json https://raw.githubusercontent.com/ksjbrown/dotenv/main/vscode/keybindings.json
     curl.exe https://raw.githubusercontent.com/ksjbrown/dotenv/main/vscode/extensions.txt |% { code --install-extension $_}
 
-### Update VS Code Settings
+### Update This Project with Current VS Code Settings
 
     # Powershell
     cp $Env:APPDATA\Code\User\settings.json .\vscode\settings.json
     cp $Env:APPDATA\Code\User\keybindings.json .\vscode\keybindings.json
     code --list-extensions > .\vscode\extensions.txt
-
 
 ## WSL
 
