@@ -50,5 +50,5 @@ My personal development environment configuration.
     alias cmd='cmd.exe'
 
     # enable oh-my-posh
-    eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/ksjbrown/devenv/main/omp/themes/keegan.omp.json')"
+    eval "$(oh-my-posh init bash --config 'https://raw.githubusercontent.com/ksjbrown/dotenv/main/omp/themes/keegan.omp.json')"
 
