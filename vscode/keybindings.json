@@ -1,4 +1,5 @@
 [
+  // editor navigation
   // terminal navigation
   { "key": "ctrl+shift+h", "command": "-workbench.action.replaceInFiles" },
   { "key": "ctrl+shift+h", "command": "workbench.action.terminal.focusPreviousPane", "when": "terminalFocus" },
@@ -17,9 +18,6 @@
   // explorer
   { "key": "ctrl+e", "command": "workbench.action.toggleSidebarVisibility" },
   { "key": "n", "command": "explorer.newFile", "when": "filesExplorerFocus && !inputFocus" },
-  { "key": "r", "command": "renameFile", "when": "filesExplorerFocus && !inputFocus" },
-  { "key": "d", "command": "deleteFile", "when": "filesExplorerFocus && !inputFocus" },
-  { "key": "alt+h", "command": "previousCompressedFolder", "when": "explorerViewletCompressedFocus && explorerViewletVisible && filesExplorerFocus && !explorerViewletCompressedFirstFocus && !inputFocus" },
   { "key": "ctrl+shift+alt+left", "command": "workbench.action.decreaseViewSize", "when": "explorerViewletFocus" },
   { "key": "ctrl+shift+alt+right", "command": "workbench.action.increaseViewSize", "when": "explorerViewletFocus" },
   // resize editors
@@ -46,4 +44,14 @@
   { "key": "ctrl+shift+v", "command": "-markdown.showPreview", "when": "!notebookEditorFocused && editorLangId == 'markdown'" },
   { "key": "ctrl+k v", "command": "-markdown.showPreviewToSide", "when": "!notebookEditorFocused && editorLangId == 'markdown'" },
   { "key": "ctrl+shift+v", "command": "markdown.showPreviewToSide", "when": "!notebookEditorFocused && editorLangId == 'markdown'" },
+  // close editors
+  { "key": "ctrl+shift+w", "command": "workbench.action.closeOtherEditors" },
+  { "key": "ctrl+shift+w", "command": "-workbench.action.closeWindow" }, 
+  { "key": "ctrl+alt+w", "command": "workbench.action.closeEditorsInOtherGroups" }, 
+  { "key": "ctrl+shift+alt+w", "command": "workbench.action.closeWindow" },
+  { "key": "alt+f4", "command": "-workbench.action.closeWindow" },
+  { "key": "ctrl+shift+f11", "command": "workbench.action.toggleFullScreen" },
+  { "key": "f11", "command": "-workbench.action.toggleFullScreen"},
+  { "key": "ctrl+f1", "command": "background.reload" },
+  { "key": "ctrl+shift+f1", "command": "background.install" }
 ]
