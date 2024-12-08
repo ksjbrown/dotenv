@@ -1,9 +1,10 @@
-# tab complete bash style
-Set-PSReadlineKeyHandler -Key Tab -Function Complete
-Set-PSReadlineOption -BellStyle None
+# install PsReadLine
+# Install-Module -Name PowerShellGet -Force
+# Install-Module PSReadLine
 
-# hide venv prompt, handled by ohmyposh
-$Env:VIRTUAL_ENV_DISABLE_PROMPT=1
+# tab complete bash style
+Set-PSReadlineKeyHandler -Chord Tab -Function Complete
+Set-PSReadlineOption -BellStyle None
 
 # load extensions
 Import-Module posh-git
