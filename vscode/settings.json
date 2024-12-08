@@ -1,25 +1,27 @@
 {
+    //
+    // Background
+    "background.autoInstall": true,
     "background.backgroundAlignment": [ "Top Center", "Center Center", "Center Center", "Center Center" ],
-    "background.backgroundBlur": [ "5px", "0", "0", "0" ],
-    "background.backgroundChangeTime": [ 0, 0, 0, 0 ],
-    "background.backgroundOpacity": [ 0.85, 0.9, 0.9, 0.9 ],
+    "background.backgroundBlur": [ "7px", "0", "0", "0" ],
+    "background.backgroundChangeTime": [ 300, 0, 0, 0 ],
+    "background.backgroundOpacity": [ 0.9, 0.9, 0.9, 0.9 ],
     "background.useInvertedOpacity": true,
     "background.smoothImageRendering": true,
     "background.windowBackgrounds": [
+        //
         // sfw
-        "https://4kwallpapers.com/images/wallpapers/lofi-girl-night-cat-3840x2160-15268.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-dreams-3840x2160-14891.jpeg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-alone-3840x2160-14856.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-listening-3840x2160-14887.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-reading-3840x2160-14889.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-working-3840x2160-14820.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-cozy-cat-3840x2160-14859.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-sad-mood-3840x2160-15317.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-night-city-3840x2160-14857.jpg", "https://4kwallpapers.com/images/wallpapers/your-name-anime-3840x2160-14877.jpeg", "https://4kwallpapers.com/images/wallpapers/taki-tachibana-lofi-3840x2160-14933.jpg", "https://images7.alphacoders.com/138/1383965.png", "https://images4.alphacoders.com/134/1349197.png", "https://images8.alphacoders.com/138/thumb-1920-1384032.png", "https://images3.alphacoders.com/135/1351027.png", "https://images.alphacoders.com/138/1380528.png", "https://images2.alphacoders.com/138/1383939.png", "https://images8.alphacoders.com/138/1383926.png", "https://images5.alphacoders.com/135/thumb-1920-1357321.jpeg", "https://images7.alphacoders.com/138/1380597.png", "https://images.alphacoders.com/132/1322321.jpeg", "https://artfiles.alphacoders.com/126/thumb-1920-126119.png", "https://images4.alphacoders.com/135/1354755.png", "https://images5.alphacoders.com/135/thumb-1920-1357323.jpeg", "https://images2.alphacoders.com/135/1351026.png", "https://images4.alphacoders.com/134/thumb-1920-1349196.png",
+        "https://4kwallpapers.com/images/wallpapers/lofi-girl-night-cat-3840x2160-15268.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-dreams-3840x2160-14891.jpeg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-alone-3840x2160-14856.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-listening-3840x2160-14887.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-reading-3840x2160-14889.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-working-3840x2160-14820.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-cozy-cat-3840x2160-14859.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-sad-mood-3840x2160-15317.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-night-city-3840x2160-14857.jpg", "https://4kwallpapers.com/images/wallpapers/your-name-anime-3840x2160-14877.jpeg", "https://4kwallpapers.com/images/wallpapers/taki-tachibana-lofi-3840x2160-14933.jpg", "https://images7.alphacoders.com/138/1383965.png", "https://images4.alphacoders.com/134/1349197.png", "https://images8.alphacoders.com/138/thumb-1920-1384032.png", "https://images3.alphacoders.com/135/1351027.png", "https://images.alphacoders.com/138/1380528.png", "https://images2.alphacoders.com/138/1383939.png", "https://images8.alphacoders.com/138/1383926.png", "https://images5.alphacoders.com/135/thumb-1920-1357321.jpeg", "https://images7.alphacoders.com/138/1380597.png", "https://images.alphacoders.com/132/1322321.jpeg", "https://artfiles.alphacoders.com/126/thumb-1920-126119.png", "https://images4.alphacoders.com/135/1354755.png", "https://images5.alphacoders.com/135/thumb-1920-1357323.jpeg", "https://images2.alphacoders.com/135/1351026.png", "https://images4.alphacoders.com/134/thumb-1920-1349196.png", "https://4kwallpapers.com/images/wallpapers/frierens-staff-3840x2160-20067.jpg", "https://4kwallpapers.com/images/wallpapers/wlop-digital-art-3840x2160-15976.jpg", "https://4kwallpapers.com/images/wallpapers/urban-girl-surreal-3840x2160-14990.jpg", "https://4kwallpapers.com/images/wallpapers/cute-girl-reading-3840x2160-14081.jpg", "https://4kwallpapers.com/images/wallpapers/cute-girl-kitten-3840x2160-12421.jpg", "https://4kwallpapers.com/images/wallpapers/surreal-girl-night-starry-sky-night-sky-jellyfishes-dream-3840x2160-7704.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-3840x2160-14883.jpg", "https://img.goodfon.com/original/1920x1080/4/3e/jinx-girl-lol-ai-art-dark-background.jpg", "https://img.goodfon.com/original/1920x1080/4/7b/girls-ai-art-sky-look.jpg", "https://img.goodfon.com/original/1920x1080/0/9d/ai-art-girl-view-night-city.jpg", "https://img.goodfon.com/original/1920x1080/a/de/women-ai-art-colorful-illustration-headphones-sleeping-cats.jpg", "https://img.goodfon.com/original/1920x1080/d/4b/stardust-serenity-anime-night-sky-zvezdnaia-pyl-bezmiatezhno.jpg", "https://img.goodfon.com/original/1920x1080/c/2e/women-long-hair-ai-art-illustration-cats-rooftops-digital-ar.jpg", "https://img.goodfon.com/original/1920x1080/6/20/women-ai-art-colorful-illustration-headphones-sleeping-lofi.jpg",
+        //
         // nsfw-ish
-        "https://img.goodfon.com/original/1920x1080/0/8a/girl-shirt-ai-art.jpg", "https://img.goodfon.com/original/1920x1080/5/25/ai-art-brunette-blue-eyes-women-with-glasses-anime-girls-dev.jpg", "https://img.goodfon.com/original/1920x1080/5/f3/ai-art-blonde-minidress-anime-girls-devushka-blue-eyes-freck.jpg", "https://img.goodfon.com/original/1920x1080/6/b4/ai-art-girl-shirt-brunette.jpg", "https://img.goodfon.com/original/1920x1080/8/18/anime-babe-girl-pretty-cute-kawaii-petite-sports-t-shirt-t-s.jpg", "https://img.goodfon.com/original/1920x1080/8/3e/ai-art-brunette-white-shirt-anime-girls-devushka-freckles-lo.jpg", "https://img.goodfon.com/original/1920x1080/9/dd/ai-art-girl-blonde-shirt.jpg", "https://img.goodfon.com/original/1920x1080/a/36/ai-art-blonde-blue-eyes-pyjamas-anime-girls-devushka-freckle.jpg", "https://img.goodfon.com/original/1920x1080/b/5e/ai-art-girls-blondes-face.jpg", "https://img.goodfon.com/original/1920x1080/d/9f/women-blonde-blue-eyes-short-hair-looking-at-viewer-schoolgi.jpg", "https://img.goodfon.com/original/1920x1080/e/ea/girl-shirt-blonde-ai-art.jpg", "https://img.goodfon.com/original/1920x1280/e/f7/ai-art-brunette-pyjamas-anime-girls-devushka-freckles-women.jpg", "https://img.goodfon.com/original/2560x1440/b/dc/tifa-lockhart-final-fantasy-girl.jpg",
+        "https://img.goodfon.com/original/1920x1080/0/8a/girl-shirt-ai-art.jpg", "https://img.goodfon.com/original/1920x1080/5/25/ai-art-brunette-blue-eyes-women-with-glasses-anime-girls-dev.jpg", "https://img.goodfon.com/original/1920x1080/5/f3/ai-art-blonde-minidress-anime-girls-devushka-blue-eyes-freck.jpg", "https://img.goodfon.com/original/1920x1080/6/b4/ai-art-girl-shirt-brunette.jpg", "https://img.goodfon.com/original/1920x1080/8/18/anime-babe-girl-pretty-cute-kawaii-petite-sports-t-shirt-t-s.jpg", "https://img.goodfon.com/original/1920x1080/8/3e/ai-art-brunette-white-shirt-anime-girls-devushka-freckles-lo.jpg", "https://img.goodfon.com/original/1920x1080/9/dd/ai-art-girl-blonde-shirt.jpg", "https://img.goodfon.com/original/1920x1080/a/36/ai-art-blonde-blue-eyes-pyjamas-anime-girls-devushka-freckle.jpg", "https://img.goodfon.com/original/1920x1080/b/5e/ai-art-girls-blondes-face.jpg", "https://img.goodfon.com/original/1920x1080/e/ea/girl-shirt-blonde-ai-art.jpg", "https://img.goodfon.com/original/1920x1280/e/f7/ai-art-brunette-pyjamas-anime-girls-devushka-freckles-women.jpg", "https://img.goodfon.com/original/2560x1440/b/dc/tifa-lockhart-final-fantasy-girl.jpg", "https://4kwallpapers.com/images/wallpapers/kizuna-ai-virtual-3840x2160-14509.jpeg", "https://4kwallpapers.com/images/wallpapers/dva-cute-art-school-3840x2160-11864.jpg", "https://4kwallpapers.com/images/wallpapers/dva-overwatch-dark-background-anime-girl-3840x2160-5067.jpg", "https://img.goodfon.com/original/1920x1080/1/ef/silver-mask-mystery-tn.jpg", "https://img.goodfon.com/original/1920x1080/4/eb/lara-croft-night-fire-bow-arrow-fighter.jpg", "https://img.goodfon.com/original/1920x1080/a/6a/stable-diffusion-stabilnaia-diffuziia-ai-art-ii-art-iskus-68.jpg", "https://img.goodfon.com/original/2560x1440/d/d8/girl-cute-young-ai-art-brunette-wild-west.jpg", "https://img.goodfon.com/original/2560x1440/b/ea/ai-art-girl-beautiful-space-fantasy.jpg",
+        //
         // nsfw
-        "https://img.goodfon.com/original/1920x1080/c/22/ai-art-girls-four.jpg", "https://img.goodfon.com/original/2560x1440/0/3e/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-7.jpg", "https://img.goodfon.com/original/2560x1440/b/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-5.jpg", "https://img.goodfon.com/original/2560x1440/c/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-9.jpg", "https://img.goodfon.com/original/2560x1440/d/df/girl-fantasy-art-blond-digital-art-fantasy-art-fantasy-gir-7.jpg", "https://img.goodfon.com/original/2560x1440/d/d8/girl-cute-young-ai-art-brunette-wild-west.jpg", "https://img.goodfon.com/original/2560x1440/b/ea/ai-art-girl-beautiful-space-fantasy.jpg",
+        "https://img.goodfon.com/original/2560x1440/0/3e/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-7.jpg", "https://img.goodfon.com/original/2560x1440/b/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-5.jpg", "https://img.goodfon.com/original/2560x1440/c/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-9.jpg",
     ],
-    "[python]": {
-        "black-formatter.args": [
-            "--line-length=119",
-        ],
-        "diffEditor.ignoreTrimWhitespace": false,
-        "editor.formatOnSave": true
-    },
+    //
+    // Editor Settings
+    // "editor.rulers": [ {"column": 80, "color": "#1f1f1f"} ],
     "breadcrumbs.enabled": false,
     "breadcrumbs.icons": false,
     "diffEditor.ignoreTrimWhitespace": false,
@@ -36,7 +38,7 @@
     },
     "editor.renderWhitespace": "none",
     "editor.scrollbar.horizontal": "hidden",
-    "editor.scrollbar.verticalScrollbarSize": 8,
+    "editor.scrollbar.verticalScrollbarSize": 10,
     "editor.suggest.insertMode": "replace",
     "errorLens.fontStyleItalic": true,
     "errorLens.fontWeight": "900",
@@ -47,15 +49,6 @@
     "explorer.compactFolders": false,
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "afterDelay",
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.replaceTagsWhenPull": true,
-    "git.suggestSmartCommit": false,
-    "go.showWelcome": false,
-    "go.survey.prompt": false,
-    "go.toolsManagement.autoUpdate": true,
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.typeCheckingMode": "basic",
     "terminal.integrated.commandsToSkipShell": [
         "workbench.action.toggleSidebarVisibility",
         "workbench.action.terminal.resizePaneUp",
@@ -64,13 +57,57 @@
     ],
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.shellIntegration.enabled": false,
-    "update.showReleaseNotes": false,
+    "window.commandCenter": false,
+    "window.density.editorTabHeight": "compact",
+    "window.menuBarVisibility": "compact",
+    "workbench.activityBar.location": "hidden",
+    "workbench.colorCustomizations": {
+        "[Black]": { "activityBar.border": "#000000", "breadcrumb.activeSelectionForeground": "#000000", "breadcrumb.background": "#000000", "breadcrumb.focusForeground": "#000000", "breadcrumbPicker.background": "#000000", "editor.background": "#000000", "editor.lineHighlightBackground": "#080808", "editorLineNumber.foreground": "#3f3f3f", "editorLineNumber.activeForeground": "#ffffff", "editorGroup.border": "#000000", "editorGroupHeader.border": "#000000", "editorGroupHeader.noTabsBackground": "#000000", "editorGroupHeader.tabsBorder": "#000000", "panel.border": "#000000", "settings.checkboxBackground": "#000000", "sideBar.border": "#000000", "sideBarSectionHeader.border": "#000000", "statusBar.border": "#000000", "statusBar.debuggingBorder": "#000000", "statusBar.noFolderBorder": "#000000", "tab.activeBorder": "#000000", "tab.activeBorderTop": "#000000", "tab.border": "#000000", "tab.lastPinnedBorder": "#000000", "tab.unfocusedActiveBorder": "#000000", "tab.unfocusedActiveBorderTop": "#000000", "terminal.border": "#000000", "window.activeBorder": "#000000", "window.inactiveBorder": "#000000" }
+    },
+    "workbench.editor.tabActionCloseVisibility": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    "workbench.sideBar.location": "right",
+    "workbench.startupEditor": "none",
+    "workbench.statusBar.visible": true,
+    "workbench.tips.enabled": false,
+    "workbench.tree.indent": 12,
+    "workbench.colorTheme": "Black",
+    "zenMode.centerLayout": false,
+    "zenMode.fullScreen": false,
+    "zenMode.hideLineNumbers": false,
+    "zenMode.showTabs": "none",
+    "zenMode.silentNotifications": false,
+    //
+    // Git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.replaceTagsWhenPull": true,
+    "git.suggestSmartCommit": false,
+    //
+    // Go
+    "go.showWelcome": false,
+    "go.survey.prompt": false,
+    "go.toolsManagement.autoUpdate": true,
+    //
+    // Python
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "[python]": {
+        "black-formatter.args": [
+            "--line-length=119",
+        ],
+        "editor.formatOnSave": true
+    },
+    //
+    // Vim
     "vim.handleKeys": {
         "<C-f>": false,
         "<C-w>": false
     },
     "vim.highlightedyank.enable": true,
     "vim.leader": "<Space>",
+    "vim.useSystemClipboard": true,
     "vim.normalModeKeyBindingsNonRecursive": [
         { "before": [ "<C-h>" ], "commands": [ "workbench.action.previousEditorInGroup" ] },
         { "before": [ "<C-l>" ], "commands": [ "workbench.action.nextEditorInGroup" ] },
@@ -91,63 +128,15 @@
         { "before": [ "g", "h" ], "commands": [ "editor.action.showDefinitionPreviewHover" ] },
         { "before": [ "g", "r" ], "commands": [ "editor.action.goToReferences" ] }
     ], 
-    "vim.useSystemClipboard": true,
     "vim.visualModeKeyBindings": [
         { "before": [ "<" ], "commands": [ "editor.action.outdentLines" ] },
         { "before": [ ">" ], "commands": [ "editor.action.indentLines" ] },
         { "before": [ "J" ], "commands": [ "editor.action.moveLinesDownAction" ] },
         { "before": [ "K" ], "commands": [ "editor.action.moveLinesUpAction" ] },
     ],
-    "window.commandCenter": false,
-    "window.density.editorTabHeight": "compact",
-    "window.menuBarVisibility": "compact",
-    "workbench.activityBar.location": "hidden",
-    "workbench.colorCustomizations": {
-        "[Black]": {
-            "activityBar.border": "#000000",
-            "breadcrumb.activeSelectionForeground": "#000000",
-            "breadcrumb.background": "#000000",
-            "breadcrumb.focusForeground": "#000000",
-            "breadcrumbPicker.background": "#000000",
-            "editor.background": "#000000",
-            "editor.lineHighlightBackground": "#080808",
-            "editorLineNumber.foreground": "#3f3f3f",
-            "editorLineNumber.activeForeground": "#ffffff",
-            "editorGroup.border": "#000000",
-            "editorGroupHeader.border": "#000000",
-            "editorGroupHeader.noTabsBackground": "#000000",
-            "editorGroupHeader.tabsBorder": "#000000",
-            "panel.border": "#000000",
-            "settings.checkboxBackground": "#000000",
-            "sideBar.border": "#000000",
-            "sideBarSectionHeader.border": "#000000",
-            "statusBar.border": "#000000",
-            "statusBar.debuggingBorder": "#000000",
-            "statusBar.noFolderBorder": "#000000",
-            "tab.activeBorder": "#000000",
-            "tab.activeBorderTop": "#000000",
-            "tab.border": "#000000",
-            "tab.lastPinnedBorder": "#000000",
-            "tab.unfocusedActiveBorder": "#000000",
-            "tab.unfocusedActiveBorderTop": "#000000",
-            "terminal.border": "#000000",
-            "window.activeBorder": "#000000",
-            "window.inactiveBorder": "#000000"
-        }
-    },
-    "workbench.colorTheme": "Black",
-    "workbench.editor.tabActionCloseVisibility": false,
-    "workbench.editor.wrapTabs": true,
-    "workbench.iconTheme": "material-icon-theme",
-    "workbench.layoutControl.enabled": false,
-    "workbench.sideBar.location": "right",
-    "workbench.startupEditor": "none",
-    "workbench.statusBar.visible": true,
-    "workbench.tips.enabled": false,
-    "workbench.tree.indent": 12,
-    "zenMode.centerLayout": false,
-    "zenMode.fullScreen": false,
-    "zenMode.hideLineNumbers": false,
-    "zenMode.showTabs": "none",
-    "zenMode.silentNotifications": false,
+    //
+    // Misc
+    "update.showReleaseNotes": false,
+    //
+    // Unsorted
 }
