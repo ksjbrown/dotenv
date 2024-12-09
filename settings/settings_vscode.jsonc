@@ -1,32 +1,10 @@
 {
     //
-    // Background
-    "background.autoInstall": true,
-    "background.backgroundAlignment": [ "Top Center", "Center Center", "Center Center", "Center Center" ],
-    "background.backgroundBlur": [ "7px", "0", "0", "0" ],
-    "background.backgroundChangeTime": [ 300, 0, 0, 0 ],
-    "background.backgroundOpacity": [ 0.9, 0.9, 0.9, 0.9 ],
-    "background.useInvertedOpacity": true,
-    "background.smoothImageRendering": true,
-    "background.windowBackgrounds": [
-        //
-        // sfw
-        "https://4kwallpapers.com/images/wallpapers/lofi-girl-night-cat-3840x2160-15268.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-dreams-3840x2160-14891.jpeg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-alone-3840x2160-14856.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-listening-3840x2160-14887.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-reading-3840x2160-14889.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-working-3840x2160-14820.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-cozy-cat-3840x2160-14859.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-sad-mood-3840x2160-15317.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-night-city-3840x2160-14857.jpg", "https://4kwallpapers.com/images/wallpapers/your-name-anime-3840x2160-14877.jpeg", "https://4kwallpapers.com/images/wallpapers/taki-tachibana-lofi-3840x2160-14933.jpg", "https://images7.alphacoders.com/138/1383965.png", "https://images4.alphacoders.com/134/1349197.png", "https://images8.alphacoders.com/138/thumb-1920-1384032.png", "https://images3.alphacoders.com/135/1351027.png", "https://images.alphacoders.com/138/1380528.png", "https://images2.alphacoders.com/138/1383939.png", "https://images8.alphacoders.com/138/1383926.png", "https://images5.alphacoders.com/135/thumb-1920-1357321.jpeg", "https://images7.alphacoders.com/138/1380597.png", "https://images.alphacoders.com/132/1322321.jpeg", "https://artfiles.alphacoders.com/126/thumb-1920-126119.png", "https://images4.alphacoders.com/135/1354755.png", "https://images5.alphacoders.com/135/thumb-1920-1357323.jpeg", "https://images2.alphacoders.com/135/1351026.png", "https://images4.alphacoders.com/134/thumb-1920-1349196.png", "https://4kwallpapers.com/images/wallpapers/frierens-staff-3840x2160-20067.jpg", "https://4kwallpapers.com/images/wallpapers/wlop-digital-art-3840x2160-15976.jpg", "https://4kwallpapers.com/images/wallpapers/urban-girl-surreal-3840x2160-14990.jpg", "https://4kwallpapers.com/images/wallpapers/cute-girl-reading-3840x2160-14081.jpg", "https://4kwallpapers.com/images/wallpapers/cute-girl-kitten-3840x2160-12421.jpg", "https://4kwallpapers.com/images/wallpapers/surreal-girl-night-starry-sky-night-sky-jellyfishes-dream-3840x2160-7704.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-3840x2160-14883.jpg", "https://img.goodfon.com/original/1920x1080/4/3e/jinx-girl-lol-ai-art-dark-background.jpg", "https://img.goodfon.com/original/1920x1080/4/7b/girls-ai-art-sky-look.jpg", "https://img.goodfon.com/original/1920x1080/0/9d/ai-art-girl-view-night-city.jpg", "https://img.goodfon.com/original/1920x1080/a/de/women-ai-art-colorful-illustration-headphones-sleeping-cats.jpg", "https://img.goodfon.com/original/1920x1080/d/4b/stardust-serenity-anime-night-sky-zvezdnaia-pyl-bezmiatezhno.jpg", "https://img.goodfon.com/original/1920x1080/c/2e/women-long-hair-ai-art-illustration-cats-rooftops-digital-ar.jpg", "https://img.goodfon.com/original/1920x1080/6/20/women-ai-art-colorful-illustration-headphones-sleeping-lofi.jpg",
-        //
-        // nsfw-ish
-        "https://img.goodfon.com/original/1920x1080/0/8a/girl-shirt-ai-art.jpg", "https://img.goodfon.com/original/1920x1080/5/25/ai-art-brunette-blue-eyes-women-with-glasses-anime-girls-dev.jpg", "https://img.goodfon.com/original/1920x1080/5/f3/ai-art-blonde-minidress-anime-girls-devushka-blue-eyes-freck.jpg", "https://img.goodfon.com/original/1920x1080/6/b4/ai-art-girl-shirt-brunette.jpg", "https://img.goodfon.com/original/1920x1080/8/18/anime-babe-girl-pretty-cute-kawaii-petite-sports-t-shirt-t-s.jpg", "https://img.goodfon.com/original/1920x1080/8/3e/ai-art-brunette-white-shirt-anime-girls-devushka-freckles-lo.jpg", "https://img.goodfon.com/original/1920x1080/9/dd/ai-art-girl-blonde-shirt.jpg", "https://img.goodfon.com/original/1920x1080/a/36/ai-art-blonde-blue-eyes-pyjamas-anime-girls-devushka-freckle.jpg", "https://img.goodfon.com/original/1920x1080/b/5e/ai-art-girls-blondes-face.jpg", "https://img.goodfon.com/original/1920x1080/e/ea/girl-shirt-blonde-ai-art.jpg", "https://img.goodfon.com/original/1920x1280/e/f7/ai-art-brunette-pyjamas-anime-girls-devushka-freckles-women.jpg", "https://img.goodfon.com/original/2560x1440/b/dc/tifa-lockhart-final-fantasy-girl.jpg", "https://4kwallpapers.com/images/wallpapers/kizuna-ai-virtual-3840x2160-14509.jpeg", "https://4kwallpapers.com/images/wallpapers/dva-cute-art-school-3840x2160-11864.jpg", "https://4kwallpapers.com/images/wallpapers/dva-overwatch-dark-background-anime-girl-3840x2160-5067.jpg", "https://img.goodfon.com/original/1920x1080/1/ef/silver-mask-mystery-tn.jpg", "https://img.goodfon.com/original/1920x1080/4/eb/lara-croft-night-fire-bow-arrow-fighter.jpg", "https://img.goodfon.com/original/1920x1080/a/6a/stable-diffusion-stabilnaia-diffuziia-ai-art-ii-art-iskus-68.jpg", "https://img.goodfon.com/original/2560x1440/d/d8/girl-cute-young-ai-art-brunette-wild-west.jpg", "https://img.goodfon.com/original/2560x1440/b/ea/ai-art-girl-beautiful-space-fantasy.jpg",
-        //
-        // nsfw
-        "https://img.goodfon.com/original/2560x1440/0/3e/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-7.jpg", "https://img.goodfon.com/original/2560x1440/b/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-5.jpg", "https://img.goodfon.com/original/2560x1440/c/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-9.jpg",
-    ],
-    //
     // Editor Settings
     // "editor.rulers": [ {"column": 80, "color": "#1f1f1f"} ],
     "breadcrumbs.enabled": false,
-    "breadcrumbs.icons": false,
     "diffEditor.ignoreTrimWhitespace": false,
     "editor.autoClosingBrackets": "beforeWhitespace",
-    "editor.cursorBlinking": "smooth",
     "editor.cursorSurroundingLines": 8,
     "editor.fontFamily": "'FiraCode Nerd Font Mono'",
     "editor.lightbulb.enabled": "off",
@@ -36,7 +14,6 @@
     "editor.quickSuggestions": {
         "other": "inline"
     },
-    "editor.renderWhitespace": "none",
     "editor.scrollbar.horizontal": "hidden",
     "editor.scrollbar.verticalScrollbarSize": 10,
     "editor.suggest.insertMode": "replace",
@@ -79,26 +56,25 @@
     "zenMode.showTabs": "none",
     "zenMode.silentNotifications": false,
     //
-    // Git
-    "git.autofetch": true,
-    "git.confirmSync": false,
-    "git.replaceTagsWhenPull": true,
-    "git.suggestSmartCommit": false,
-    //
-    // Go
-    "go.showWelcome": false,
-    "go.survey.prompt": false,
-    "go.toolsManagement.autoUpdate": true,
-    //
-    // Python
-    "python.analysis.autoImportCompletions": true,
-    "python.analysis.typeCheckingMode": "basic",
-    "[python]": {
-        "black-formatter.args": [
-            "--line-length=119",
-        ],
-        "editor.formatOnSave": true
-    },
+    // Background
+    "background.autoInstall": true,
+    "background.backgroundAlignment": [ "Top Center", "Center Center", "Center Center", "Center Center" ],
+    "background.backgroundBlur": [ "6px", "0", "0", "0" ],
+    "background.backgroundChangeTime": [ 300, 0, 0, 0 ],
+    "background.backgroundOpacity": [ 0.9, 0.9, 0.9, 0.9 ],
+    "background.useInvertedOpacity": true,
+    "background.smoothImageRendering": true,
+    "background.windowBackgrounds": [
+        //
+        // sfw
+        "https://4kwallpapers.com/images/wallpapers/lofi-girl-night-cat-3840x2160-15268.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-dreams-3840x2160-14891.jpeg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-alone-3840x2160-14856.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-listening-3840x2160-14887.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-reading-3840x2160-14889.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-working-3840x2160-14820.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-cozy-cat-3840x2160-14859.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-sad-mood-3840x2160-15317.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-night-city-3840x2160-14857.jpg", "https://4kwallpapers.com/images/wallpapers/your-name-anime-3840x2160-14877.jpeg", "https://4kwallpapers.com/images/wallpapers/taki-tachibana-lofi-3840x2160-14933.jpg", "https://images7.alphacoders.com/138/1383965.png", "https://images4.alphacoders.com/134/1349197.png", "https://images8.alphacoders.com/138/thumb-1920-1384032.png", "https://images3.alphacoders.com/135/1351027.png", "https://images.alphacoders.com/138/1380528.png", "https://images2.alphacoders.com/138/1383939.png", "https://images8.alphacoders.com/138/1383926.png", "https://images5.alphacoders.com/135/thumb-1920-1357321.jpeg", "https://images7.alphacoders.com/138/1380597.png", "https://images.alphacoders.com/132/1322321.jpeg", "https://artfiles.alphacoders.com/126/thumb-1920-126119.png", "https://images4.alphacoders.com/135/1354755.png", "https://images5.alphacoders.com/135/thumb-1920-1357323.jpeg", "https://images2.alphacoders.com/135/1351026.png", "https://images4.alphacoders.com/134/thumb-1920-1349196.png", "https://4kwallpapers.com/images/wallpapers/frierens-staff-3840x2160-20067.jpg", "https://4kwallpapers.com/images/wallpapers/wlop-digital-art-3840x2160-15976.jpg", "https://4kwallpapers.com/images/wallpapers/urban-girl-surreal-3840x2160-14990.jpg", "https://4kwallpapers.com/images/wallpapers/cute-girl-reading-3840x2160-14081.jpg", "https://4kwallpapers.com/images/wallpapers/cute-girl-kitten-3840x2160-12421.jpg", "https://4kwallpapers.com/images/wallpapers/surreal-girl-night-starry-sky-night-sky-jellyfishes-dream-3840x2160-7704.jpg", "https://4kwallpapers.com/images/wallpapers/lofi-girl-3840x2160-14883.jpg", "https://img.goodfon.com/original/1920x1080/4/3e/jinx-girl-lol-ai-art-dark-background.jpg", "https://img.goodfon.com/original/1920x1080/4/7b/girls-ai-art-sky-look.jpg", "https://img.goodfon.com/original/1920x1080/0/9d/ai-art-girl-view-night-city.jpg", "https://img.goodfon.com/original/1920x1080/a/de/women-ai-art-colorful-illustration-headphones-sleeping-cats.jpg", "https://img.goodfon.com/original/1920x1080/d/4b/stardust-serenity-anime-night-sky-zvezdnaia-pyl-bezmiatezhno.jpg", "https://img.goodfon.com/original/1920x1080/c/2e/women-long-hair-ai-art-illustration-cats-rooftops-digital-ar.jpg", "https://img.goodfon.com/original/1920x1080/6/20/women-ai-art-colorful-illustration-headphones-sleeping-lofi.jpg",
+        //
+        // nsfw-ish
+        "https://img.goodfon.com/original/1920x1080/0/8a/girl-shirt-ai-art.jpg", "https://img.goodfon.com/original/1920x1080/5/25/ai-art-brunette-blue-eyes-women-with-glasses-anime-girls-dev.jpg", "https://img.goodfon.com/original/1920x1080/5/f3/ai-art-blonde-minidress-anime-girls-devushka-blue-eyes-freck.jpg", "https://img.goodfon.com/original/1920x1080/6/b4/ai-art-girl-shirt-brunette.jpg", "https://img.goodfon.com/original/1920x1080/8/18/anime-babe-girl-pretty-cute-kawaii-petite-sports-t-shirt-t-s.jpg", "https://img.goodfon.com/original/1920x1080/8/3e/ai-art-brunette-white-shirt-anime-girls-devushka-freckles-lo.jpg", "https://img.goodfon.com/original/1920x1080/9/dd/ai-art-girl-blonde-shirt.jpg", "https://img.goodfon.com/original/1920x1080/a/36/ai-art-blonde-blue-eyes-pyjamas-anime-girls-devushka-freckle.jpg", "https://img.goodfon.com/original/1920x1080/b/5e/ai-art-girls-blondes-face.jpg", "https://img.goodfon.com/original/1920x1080/e/ea/girl-shirt-blonde-ai-art.jpg", "https://img.goodfon.com/original/1920x1280/e/f7/ai-art-brunette-pyjamas-anime-girls-devushka-freckles-women.jpg", "https://img.goodfon.com/original/2560x1440/b/dc/tifa-lockhart-final-fantasy-girl.jpg", "https://4kwallpapers.com/images/wallpapers/kizuna-ai-virtual-3840x2160-14509.jpeg", "https://img.goodfon.com/original/1920x1080/1/ef/silver-mask-mystery-tn.jpg", "https://img.goodfon.com/original/1920x1080/4/eb/lara-croft-night-fire-bow-arrow-fighter.jpg", "https://img.goodfon.com/original/1920x1080/a/6a/stable-diffusion-stabilnaia-diffuziia-ai-art-ii-art-iskus-68.jpg", "https://img.goodfon.com/original/2560x1440/d/d8/girl-cute-young-ai-art-brunette-wild-west.jpg", "https://img.goodfon.com/original/2560x1440/b/ea/ai-art-girl-beautiful-space-fantasy.jpg",
+        //
+        // nsfw
+        "https://img.goodfon.com/original/2560x1440/0/3e/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-7.jpg", "https://img.goodfon.com/original/2560x1440/b/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-5.jpg", "https://img.goodfon.com/original/2560x1440/c/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-9.jpg",
+    ],
     //
     // Vim
     "vim.handleKeys": {
@@ -126,7 +102,8 @@
         { "before": [ "leader", "c" ], "commands": [ "editor.action.quickFix" ] },
         { "before": [ "leader", "p" ], "commands": [ "editor.action.formatDocument" ] },
         { "before": [ "g", "h" ], "commands": [ "editor.action.showDefinitionPreviewHover" ] },
-        { "before": [ "g", "r" ], "commands": [ "editor.action.goToReferences" ] }
+        { "before": [ "g", "r" ], "commands": [ "editor.action.goToReferences" ] },
+        { "before": [ "g", "D" ], "commands": [ "editor.action.goToTypeDefinition" ] },
     ], 
     "vim.visualModeKeyBindings": [
         { "before": [ "<" ], "commands": [ "editor.action.outdentLines" ] },
@@ -135,8 +112,30 @@
         { "before": [ "K" ], "commands": [ "editor.action.moveLinesUpAction" ] },
     ],
     //
+    // Git
+    "git.autofetch": true,
+    "git.confirmSync": false,
+    "git.replaceTagsWhenPull": true,
+    "git.suggestSmartCommit": false,
+    //
+    // Go
+    "go.showWelcome": false,
+    "go.survey.prompt": false,
+    "go.toolsManagement.autoUpdate": true,
+    //
+    // Python
+    "python.analysis.autoImportCompletions": true,
+    "python.analysis.typeCheckingMode": "basic",
+    "[python]": {
+        "black-formatter.args": [
+            "--line-length=119",
+        ],
+        "editor.formatOnSave": true
+    },
+    //
     // Misc
     "update.showReleaseNotes": false,
+    "editor.renderWhitespace": "none",
     //
-    // Unsorted
+    // End
 }
