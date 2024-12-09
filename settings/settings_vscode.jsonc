@@ -34,6 +34,10 @@
     ],
     "terminal.integrated.shellIntegration.decorationsEnabled": "never",
     "terminal.integrated.shellIntegration.enabled": false,
+    "terminal.integrated.profiles.windows": {
+        "PowerShell": { "path": "powershell.exe", "args": [ "-NoLogo", ] }
+    },
+    "terminal.integrated.defaultProfile.windows": "PowerShell",
     "window.commandCenter": false,
     "window.density.editorTabHeight": "compact",
     "window.menuBarVisibility": "compact",
