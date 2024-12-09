@@ -5,7 +5,11 @@
 # ls
 Remove-Item Alias:ls -ErrorAction SilentlyContinue
 function ls {
-    Get-ChildItem -n
+    param(
+        [Parameter(ValueFromRemainingArguments = $true)]
+        $Args
+    )
+    Get-ChildItem @Args -n
 }
 
 # tab complete bash style
