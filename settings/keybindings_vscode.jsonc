@@ -61,6 +61,10 @@
   { "key": "shift+alt+oem_minus", "command": "workbench.action.splitEditorDown" },
   { "key": "ctrl+k ctrl+oem_5", "command": "-workbench.action.splitEditorDown" },
   //
+  // new file
+  { "key": "ctrl+shift+n", "command": "-workbench.action.newWindow" },
+  { "key": "ctrl+shift+n", "command": "workbench.action.files.newUntitledFile" },  
+  //
   // zen
   { "key": "ctrl+alt+z", "command": "workbench.action.toggleZenMode", "when": "!isAuxiliaryWindowFocusedContext" },
   //
