@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Special Actions Configuration Data. 10/23/2024 16:23:56 -->
+
+<Actions>
+  <Action Name="Disconnect Controller">
+    <Trigger>Options/Share</Trigger>
+    <Type>DisconnectBT</Type>
+    <Details />
+  </Action>
+</Actions>
