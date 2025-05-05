@@ -68,5 +68,13 @@
   // zen
   { "key": "ctrl+alt+z", "command": "workbench.action.toggleZenMode", "when": "!isAuxiliaryWindowFocusedContext" },
   //
+  // open 
+  { "key": "ctrl+o", "command": "-workbench.action.files.openFile", "when": "true" },
+  { "key": "ctrl+o", "command": "-workbench.action.files.openFolderViaWorkspace", "when": "!openFolderWorkspaceSupport && workbenchState == 'workspace'" },
+  { "key": "ctrl+o", "command": "-workbench.action.files.openFileFolder", "when": "isMacNative && openFolderWorkspaceSupport" },
+  { "key": "ctrl+shift+o", "command": "-editor.action.accessibleViewGoToSymbol", "when": "accessibilityHelpIsShown && accessibleViewGoToSymbolSupported || accessibleViewGoToSymbolSupported && accessibleViewIsShown" },
+  { "key": "ctrl+shift+o", "command": "-workbench.action.gotoSymbol", "when": "!accessibilityHelpIsShown && !accessibleViewIsShown" },
+  { "key": "ctrl+shift+o", "command": "-workbench.action.terminal.openDetectedLink", "when": "terminalFocus && terminalHasBeenCreated" },
+  //
   // unsorted
 ]
