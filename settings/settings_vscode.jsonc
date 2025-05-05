@@ -14,7 +14,7 @@
     "editor.quickSuggestions": {
         "other": "inline"
     },
-    "editor.scrollbar.horizontal": "hidden",
+    "editor.scrollbar.horizontal": "auto",
     "editor.scrollbar.verticalScrollbarSize": 10,
     "editor.suggest.insertMode": "replace",
     "errorLens.fontStyleItalic": true,
@@ -23,7 +23,7 @@
     "errorLens.messageBackgroundMode": "none",
     "errorLens.problemRangeDecorationEnabled": true,
     "errorLens.removeLinebreaks": false,
-    "explorer.compactFolders": false,
+    "explorer.compactFolders": true,
     "explorer.confirmDragAndDrop": false,
     "files.autoSave": "afterDelay",
     "terminal.integrated.commandsToSkipShell": [
@@ -38,22 +38,18 @@
         "PowerShell": { "path": "powershell.exe", "args": [ "-NoLogo", ] }
     },
     "terminal.integrated.defaultProfile.windows": "PowerShell",
-    "window.commandCenter": false,
     "window.density.editorTabHeight": "compact",
-    "window.menuBarVisibility": "compact",
-    "workbench.activityBar.location": "hidden",
     "workbench.colorCustomizations": {
-        "[Black]": { "activityBar.border": "#000000", "breadcrumb.activeSelectionForeground": "#000000", "breadcrumb.background": "#000000", "breadcrumb.focusForeground": "#000000", "breadcrumbPicker.background": "#000000", "editor.background": "#000000", "editor.lineHighlightBackground": "#080808", "editorLineNumber.foreground": "#3f3f3f", "editorLineNumber.activeForeground": "#ffffff", "editorGroup.border": "#000000", "editorGroupHeader.border": "#000000", "editorGroupHeader.noTabsBackground": "#000000", "editorGroupHeader.tabsBorder": "#000000", "panel.border": "#000000", "settings.checkboxBackground": "#000000", "sideBar.border": "#000000", "sideBarSectionHeader.border": "#000000", "statusBar.border": "#000000", "statusBar.debuggingBorder": "#000000", "statusBar.noFolderBorder": "#000000", "tab.activeBorder": "#000000", "tab.activeBorderTop": "#000000", "tab.border": "#000000", "tab.lastPinnedBorder": "#000000", "tab.unfocusedActiveBorder": "#000000", "tab.unfocusedActiveBorderTop": "#000000", "terminal.border": "#000000", "window.activeBorder": "#000000", "window.inactiveBorder": "#000000" }
+        "[Black][Black Italic]": { "activityBar.border": "#000000", "breadcrumb.activeSelectionForeground": "#000000", "breadcrumb.background": "#000000", "breadcrumb.focusForeground": "#000000", "breadcrumbPicker.background": "#000000", "editor.background": "#000000", "editor.lineHighlightBackground": "#080808", "editorLineNumber.foreground": "#3f3f3f", "editorLineNumber.activeForeground": "#ffffff", "editorGroup.border": "#080808", "editorGroupHeader.border": "#000000", "editorGroupHeader.noTabsBackground": "#000000", "editorGroupHeader.tabsBorder": "#000000", "panel.border": "#080808", "settings.checkboxBackground": "#000000", "sideBar.border": "#080808", "sideBarSectionHeader.border": "#000000", "statusBar.border": "#000000", "statusBar.debuggingBorder": "#000000", "statusBar.noFolderBorder": "#000000", "tab.activeBorder": "#000000", "tab.activeBorderTop": "#000000", "tab.border": "#000000", "tab.lastPinnedBorder": "#000000", "tab.unfocusedActiveBorder": "#000000", "tab.unfocusedActiveBorderTop": "#000000", "terminal.border": "#000000", "window.activeBorder": "#000000", "window.inactiveBorder": "#000000" }
     },
     "workbench.editor.tabActionCloseVisibility": false,
     "workbench.iconTheme": "material-icon-theme",
-    "workbench.layoutControl.enabled": false,
     "workbench.sideBar.location": "right",
     "workbench.startupEditor": "none",
     "workbench.statusBar.visible": true,
     "workbench.tips.enabled": false,
     "workbench.tree.indent": 12,
-    "workbench.colorTheme": "Black",
+    "workbench.colorTheme": "Black Italic",
     "zenMode.centerLayout": false,
     "zenMode.fullScreen": false,
     "zenMode.hideLineNumbers": false,
@@ -61,10 +57,10 @@
     "zenMode.silentNotifications": false,
     //
     // Background
-    "background.autoInstall": true,
+    "background.autoInstall": false,
     "background.backgroundAlignment": [ "Top Center", "Center Center", "Center Center", "Center Center" ],
     "background.backgroundBlur": [ "6px", "0", "0", "0" ],
-    "background.backgroundChangeTime": [ 300, 0, 0, 0 ],
+    "background.backgroundChangeTime": [ 600, 0, 0, 0 ],
     "background.backgroundOpacity": [ 0.9, 0.9, 0.9, 0.9 ],
     "background.useInvertedOpacity": true,
     "background.smoothImageRendering": true,
@@ -77,7 +73,7 @@
         "https://img.goodfon.com/original/1920x1080/0/8a/girl-shirt-ai-art.jpg", "https://img.goodfon.com/original/1920x1080/5/25/ai-art-brunette-blue-eyes-women-with-glasses-anime-girls-dev.jpg", "https://img.goodfon.com/original/1920x1080/5/f3/ai-art-blonde-minidress-anime-girls-devushka-blue-eyes-freck.jpg", "https://img.goodfon.com/original/1920x1080/6/b4/ai-art-girl-shirt-brunette.jpg", "https://img.goodfon.com/original/1920x1080/8/18/anime-babe-girl-pretty-cute-kawaii-petite-sports-t-shirt-t-s.jpg", "https://img.goodfon.com/original/1920x1080/8/3e/ai-art-brunette-white-shirt-anime-girls-devushka-freckles-lo.jpg", "https://img.goodfon.com/original/1920x1080/9/dd/ai-art-girl-blonde-shirt.jpg", "https://img.goodfon.com/original/1920x1080/a/36/ai-art-blonde-blue-eyes-pyjamas-anime-girls-devushka-freckle.jpg", "https://img.goodfon.com/original/1920x1080/b/5e/ai-art-girls-blondes-face.jpg", "https://img.goodfon.com/original/1920x1080/e/ea/girl-shirt-blonde-ai-art.jpg", "https://img.goodfon.com/original/1920x1280/e/f7/ai-art-brunette-pyjamas-anime-girls-devushka-freckles-women.jpg", "https://img.goodfon.com/original/2560x1440/b/dc/tifa-lockhart-final-fantasy-girl.jpg", "https://4kwallpapers.com/images/wallpapers/kizuna-ai-virtual-3840x2160-14509.jpeg", "https://img.goodfon.com/original/1920x1080/1/ef/silver-mask-mystery-tn.jpg", "https://img.goodfon.com/original/1920x1080/4/eb/lara-croft-night-fire-bow-arrow-fighter.jpg", "https://img.goodfon.com/original/1920x1080/a/6a/stable-diffusion-stabilnaia-diffuziia-ai-art-ii-art-iskus-68.jpg", "https://img.goodfon.com/original/2560x1440/d/d8/girl-cute-young-ai-art-brunette-wild-west.jpg", "https://img.goodfon.com/original/2560x1440/b/ea/ai-art-girl-beautiful-space-fantasy.jpg",
         //
         // nsfw
-        "https://img.goodfon.com/original/2560x1440/0/3e/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-7.jpg", "https://img.goodfon.com/original/2560x1440/b/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-5.jpg", "https://img.goodfon.com/original/2560x1440/c/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-9.jpg",
+        // "https://img.goodfon.com/original/2560x1440/0/3e/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-7.jpg", "https://img.goodfon.com/original/2560x1440/b/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-5.jpg", "https://img.goodfon.com/original/2560x1440/c/ec/girl-fantasy-art-cyberpunk-digital-art-fantasy-art-fantasy-9.jpg",
     ],
     //
     // Vim
@@ -139,7 +135,12 @@
     //
     // Misc
     "update.showReleaseNotes": false,
-    "editor.renderWhitespace": "none",
+    "editor.renderWhitespace": "boundary",
+    "workbench.activityBar.location": "hidden",
+    "chat.commandCenter.enabled": false,
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "terminal.integrated.enableMultiLinePasteWarning": "never",
     //
     // End
 }
